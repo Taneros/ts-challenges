@@ -22,3 +22,13 @@
  - mapped type
  - lookup type
 
+ 00007-easy-readonly
+ - readonly built-in
+
+00011-easy-tuple-to-object
+
+ In TypeScript's mapped types, in means "for each key in this set (or union of keys), create a property".
+
+00014-easy-first
+- infer
+- spread

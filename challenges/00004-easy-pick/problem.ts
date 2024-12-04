@@ -32,7 +32,7 @@
 /* _____________ Your Code Here _____________ */
 // mapped type
 
-type MyPick<T, K extends keyof T> = { [P in K]: T[P] };
+type MyPick<T, K> = any;
 
 /* _____________ Test Cases _____________ */
 import type { Equal, Expect } from '@type-challenges/utils'

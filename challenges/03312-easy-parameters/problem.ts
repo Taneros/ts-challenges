@@ -25,9 +25,7 @@
 
 // extends infer ? .... : ....
 
-type MyParameters<T extends (...args: unknown[]) => unknown> = T extends (...arg: infer Params) => unknown
-  ? Params
-    : never;
+type MyParameters<T> = any;
 
 /* _____________ Test Cases _____________ */
 import type { Equal, Expect } from '@type-challenges/utils'

@@ -18,7 +18,7 @@
 
 /* _____________ Your Code Here _____________ */
 
-type Concat<T extends readonly unknown[], U extends readonly unknown[]> = [...T, ...U];
+type Concat<T, K> = any;
 
 /* _____________ Test Cases _____________ */
 import type { Equal, Expect } from '@type-challenges/utils'
