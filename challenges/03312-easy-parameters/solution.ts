@@ -20,7 +20,7 @@
 
 /* _____________ Your Code Here _____________ */
 
-type MyParameters<T extends (...args: any[]) => any> = T extends (...params: infer Params) => unknown
+type MyParameters<T extends (...args: unknown[]) => void> = T extends (...params: infer Params) => unknown
   ? Params
     : never;
 

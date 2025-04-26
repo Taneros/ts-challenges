@@ -25,6 +25,8 @@
 
 // extends infer ? .... : ....
 
+// ! explain Covariance and Contravariance in function parameters and return values
+
 type MyParameters<T> = any;
 
 /* _____________ Test Cases _____________ */
